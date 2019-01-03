@@ -1,54 +1,32 @@
-# <%= projectName %>
+<div align="center">
 
-Choo-cli created a directory structure that [we've found to be optimal](https://yoshuawuyts.gitbooks.io/choo/content/guides/designing-for-reusability.html) for slim
-applications and reusability.
+# :triangular_ruler: choof
 
-```txt
-assets/        images and fonts, if you have any
-elements/      standalone application-specific elements
-lib/           generalized components, should be moved out of project later
-pages/         views that are directly mounted on the router
-stores/        stores that are used in pages and elements
-client.js      main application entry; programmatic manifest file
-package.json   manifest file
-```
+project generated using [neko250/choof](https://github.com/neko250/choof)
 
-You can use choo-cli to generate pieces of your project as you are developing.
-For example you can generate
+<br>
 
-Pages
-```bash
-$ choo generate page my-page
-```
+## :computer: how-to
 
-Elements
-```bash
-$ choo generate element my-element
-```
+:hammer: __`npm start`__<br>
+local development server
 
-Stores
-```bash
-$ choo generate store my-store
-```
+:triangular_ruler: __`npm run gen`__<br>
+scaffold new components
 
-## npm scripts
+:construction: __`npm run build`__<br>
+compile files into `dist/`
 
-Choo-cli was made for generating choo projects and code, and leverages npm scripts
-for certain project task. So in our project a set of npm scripts have already
-been generated that perform various tasks such as testing/serving/building/etc.
+:microscope: __`npm test`__<br>
+lint and validate deps
 
-At any time you can review the complete list of `npm scripts` available by viewing
-[package.json](./package.json) or by running the following command:
+:mag: __`npm run inspect`__<br>
+visualise the app structure
 
-```
-$ npm run
-```
+<br>
 
-Here is complete list the the commands and their function
-- start - start dev server at [localhost:8080](https://localhost:8080)
-- build - builds your project to deploy to a server
-- test - runs unit tests, for now it will just run linting.
-- lint - runs eslint against your code
+---
 
-So for example you can run `npm start` to start a dev server. You can now see your
-app running at [localhost:8080](https://localhost:8080)
+![](https://img.shields.io/badge/author-333333.svg?style=for-the-badge)
+
+</div>

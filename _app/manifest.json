@@ -1,0 +1,14 @@
+{
+  "name": "<%= projectName %>",
+  "short_name": "<%= projectName %>",
+  "description": "project generated using neko250/choof",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#333",
+  "theme_color": "#333",
+  "icons": [{
+    "src": "/assets/img/choof.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}

@@ -1,19 +1,22 @@
 projectName: <%= projectName %>
 template:
-  url: https://github.com/trainyard/template-basic
-  name: template-basic
+  url: https://github.com/neko250/choof
+  name: choof
 generators:
+  component:
+    src: .generators/component.js
+    target: components
   page:
-    src: .generators/page.js
-    target: pages
-  element:
-    src: .generators/element.js
-    target: elements
+    src: .generators/view.js
+    target: views
+  plugin:
+    src: .generators/plugin.js
+    target: plugins
   store:
     src: .generators/store.js
     target: stores
 required:
-  - _choo.yaml
-  - _gitignore
-  - _package.json
   - _editorconfig
+  - _gitignore
+  - _choo.yaml
+  - _package.json

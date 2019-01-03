@@ -1,5 +1,3 @@
-// Store: <%= name %>
+// <%= name %> store
 
-module.exports = function (state, emit) {
-
-}
+module.exports = (state, emitter) => {}
