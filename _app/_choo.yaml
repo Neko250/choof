@@ -6,7 +6,7 @@ generators:
   component:
     src: .generators/component.js
     target: components
-  page:
+  view:
     src: .generators/view.js
     target: views
   plugin:
