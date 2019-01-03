@@ -1,4 +1,4 @@
-// 🚂🚃🚃 choo 🚃🚃🚃
+// 🚂🚋🚋 choo 🚋🚋🚋
 const choo = require('choo')
 const app = choo()
 
