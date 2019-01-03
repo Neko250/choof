@@ -2,7 +2,7 @@
 const choo = require('choo')
 const app = choo()
 
-// sheetify / tachyons
+// ==== styles ====
 const css = require('sheetify')
 css('tachyons')
 
