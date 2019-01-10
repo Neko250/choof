@@ -42,6 +42,8 @@ choo new <project> from neko250/choof
   basic choo-cli template
 - [__create-choo-app__](https://github.com/choojs/create-choo-app)<br>
   create a fresh choo application
+- icon made with [__dotgrid__](https://hundredrabbits.itch.io/dotgrid)<br>
+  simple vector drawing application
 
 <br>
 
