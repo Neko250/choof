@@ -3,7 +3,6 @@
 const html = require('choo/html')
 const title = 'choof - 404'
 
-const header = require('../components/sections/section-header')
 const button = require('../components/button')
 
 module.exports = (state, emit) => {

@@ -1,6 +1,6 @@
 // button component
 
-const html = require('bel')
+const html = require('choo/html')
 
 module.exports = (text, handler) => {
   return html`

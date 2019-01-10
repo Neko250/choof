@@ -1,6 +1,6 @@
 // structure section component
 
-const html = require('bel')
+const html = require('choo/html')
 
 const header = require('./section-header')
 

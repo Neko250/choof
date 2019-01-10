@@ -1,6 +1,6 @@
 // link component
 
-const html = require('bel')
+const html = require('choo/html')
 
 module.exports = (text, href, external = false) => {
   let target = external ? '_blank' : ''
