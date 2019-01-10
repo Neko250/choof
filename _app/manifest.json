@@ -7,8 +7,8 @@
   "background_color": "#333",
   "theme_color": "#333",
   "icons": [{
-    "src": "/assets/img/choof.png",
-    "type": "image/png",
-    "sizes": "512x512"
+    "src": "/assets/img/choof.svg",
+    "type": "image/svg+xml",
+    "sizes": "192x192 512x512"
   }]
 }
