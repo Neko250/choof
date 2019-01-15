@@ -12,13 +12,16 @@
 
 ## :sparkles: features
 
-| feat | desc |
+| feat | description |
 |--:|:--|
 | [__bankai__](https://github.com/choojs/bankai) | friendly web compiler |
+| [__choo-cli__](https://github.com/trainyard/choo-cli/) | cli scaffolding tools for choo |
 | [__choo-devtools__](https://github.com/choojs/choo-devtools) | expose a choo instance on the window |
-| [__choo-service-worker__](https://github.com/choojs/choo-service-worker) | service worker loader  |for choo
+| [__choo-service-worker__](https://github.com/choojs/choo-service-worker) | service worker loader for choo |
 | [__sheetify__](https://github.com/stackcss/sheetify) | modular css bundler for browserify |
 | [__tachyons__](http://tachyons.io) | functional css for humans |
+| [__standard__](https://github.com/standard/standard) | javascript style guide, linter and formatter |
+| [__dependency-check__](https://github.com/maxogden/dependency-check) | npm dependency checker |
 
 <br>
 
