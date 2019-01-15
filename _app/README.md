@@ -1,8 +1,8 @@
 <div align="center">
 
-# :triangular_ruler: choof
+# <%= projectName %>
 
-project generated using [neko250/choof](https://github.com/neko250/choof)
+<%= projectName %> description
 
 <br>
 
@@ -27,6 +27,6 @@ visualise the app structure
 
 ---
 
-![](https://img.shields.io/badge/author-333333.svg?style=for-the-badge)
+![](https://img.shields.io/badge/made_by-author-333333.svg?style=for-the-badge) [![](https://img.shields.io/badge/based_on-choof-333333.svg?style=for-the-badge)](https://github.com/neko250/choof)
 
 </div>
